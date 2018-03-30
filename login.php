@@ -45,7 +45,7 @@ if(ISSET($_POST["submit"])=="Continue")
 				else
 				{		?>
 				<script type="text/javascript">
-				alert("INCORRECT PASSWORD ");
+				alert("INCORRECT PASSWORD "$db);
 				window.location="index.php"	;			</script>
 				<?php
 
@@ -78,7 +78,7 @@ if(ISSET($_POST["submit"])=="Continue")
 				else
 				{		?>
 				<script type="text/javascript">
-				alert("INCORRECT PASSWORD ");
+				alert("INCORRECT PASSWORD "$db);
 				window.location="index.php"	;			</script>
 				<?php
 
@@ -103,7 +103,7 @@ if(ISSET($_POST["submit"])=="Continue")
 			
 					?>
 				<script type="text/javascript">
-				alert("INCORRECT UNIQUE ID ");
+				alert("INCORRECT UNIQUE ID "$db);
 				window.location="index.php"	;
 				</script>
 				<?php
