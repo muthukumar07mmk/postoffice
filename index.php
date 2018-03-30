@@ -67,7 +67,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="dropdown-menu">
 						<div class="login-w3ls">
 							<h3>Login To Your Account</h3>
-							<form action="Login.php" method="post">
+							<form action="login.php" method="post">
 								<input type="text" name="uid" placeholder="Unique_Id" required />
 								<input type="password" name='password' placeholder="Password" required> 
 								<input type="submit" name="submit" value="Continue">
