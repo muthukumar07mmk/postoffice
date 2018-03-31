@@ -1,16 +1,7 @@
 <?php
 include("dbConfig.php");
-include_once "/mysqli_connect.php";
-
-
-
-
-	
 if(ISSET($_POST["submit"])=="Continue")
-	
 {
-
-
 	$uid= $_POST["uid"];
 	$pass=$_POST["password"];
 	$sql=" SELECT * FROM login WHERE uid='$uid' ";
@@ -18,11 +9,6 @@ if(ISSET($_POST["submit"])=="Continue")
 	$numrow=mysqli_num_rows($new);
 	$row=mysqli_fetch_assoc ( $new );
 	$role=$row ["role"];
-
-	
-	
-
-
 	if ($role=="admin") 
 	{
 		if($numrow!==0)
